@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Lamp-control",
+  "description": "delite element on page",
+  "version": "1.5",
+  "action": {
+    "default_title": "Click Me",   
+    "default_popup": "main.html"  
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": ["js/null.js"]
+    }
+  ],
+  "permissions": ["activeTab", "storage", "scripting", "tabs"]
+
+  
+}
